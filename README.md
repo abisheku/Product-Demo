@@ -4,6 +4,7 @@
 - Java
 - Tomcat (https://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.35/bin/apache-tomcat-9.0.35-windows-x64.zip)
 - Git
+- Postman or SOAPUI or curl
 
 ## Implementation features
 - Provides two different Endpoints with GET protocol
@@ -18,18 +19,18 @@
 - Install Git
 - Clone this git repo
 ```shell
-git clone <>
+git clone https://github.com/abisheku/Product-Demo.git
 ```
 - Execute the gradle Command in the cloned repo
 ```shell
 gradlew.bat clean build
 ```
-- war file be generated in the location <Repo>/build/libs
+- war file be generated in the location {Repo}/build/libs
 
 - Download Tomcat from the URL :(https://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.35/bin/apache-tomcat-9.0.35-windows-x64.zip)
 
 - Copy the gradle generated war into the webapps directory
-- Navigate to the bin folder and run the below command in cmd window
+- Navigate to the tomcat's bin folder and run the below command in cmd window
 ```shell
 catalina.bat run
 ```
