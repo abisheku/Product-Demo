@@ -1,4 +1,4 @@
-# Sample Rest Application For Demonstration
+# Sample Application to demonstrate REST API with Basic Authentication
 
 ## Software Requirements
 - Java
