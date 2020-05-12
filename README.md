@@ -61,5 +61,44 @@ Content-Type: application/json
 Authorization: Basic Y29uZmlnQWRtaW46Y29uZmlnQWRtaW5QYXNz
 ```
 
+## Response Details for the API Endpoints
+- GET /ProductDemo/api/getProductDetails - Authenticated user
+```shell
+{
+    "id": 1,
+    "name": "TestProduct is the product"
+}
+```
+- GET /ProductDemo/api/getProductDetails - Un-Authenticated user
+```shell
+{
+    "timestamp": "2020-05-12T21:01:12.257+0000",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Unauthorized",
+    "path": "/ProductDemo/api/getProductDetails"
+}
+```
+
+
+- GET /ProductDemo/api/getConfigDetails - Authenticated user
+```shell
+{
+    "configId": 1,
+    "configName": "TestConfig is the configDetails"
+}
+```
+
+- GET /ProductDemo/api/getConfigDetails - Un-Authenticated user
+```shell
+{
+    "timestamp": "2020-05-12T21:03:21.780+0000",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Unauthorized",
+    "path": "/ProductDemo/api/getConfigDetails"
+}
+```
+
 
 
