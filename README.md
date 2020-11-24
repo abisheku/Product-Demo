@@ -4,10 +4,10 @@
 - Java
 - Tomcat (https://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.35/bin/apache-tomcat-9.0.35-windows-x64.zip) - recomended
 - Git
-- Postman or SOAPUI or curl
+- Postman or SOAPUI or CURL
 
 ## Implementation features
-- Provides two different Endpoints with GET protocol
+- Provides two different API Endpoints with GET protocol
 - Basic Authentication enabled on two different URLs
 
 ## API Endpoint
@@ -17,7 +17,7 @@
 ## Step By Step Build Instructions
 - Install java
 - Install Git
-- Clone this git repo
+- Clone this (https://github.com/abisheku/Product-Demo.git) git repo
 ```shell
 git clone https://github.com/abisheku/Product-Demo.git
 ```
