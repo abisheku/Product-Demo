@@ -17,7 +17,7 @@
 ## Step By Step Build Instructions
 - Install java
 - Install Git
-- Clone this git repo
+- Clone this (https://github.com/abisheku/Product-Demo.git) git repo
 ```shell
 git clone https://github.com/abisheku/Product-Demo.git
 ```
