@@ -2,7 +2,7 @@
 
 ## Software Requirements
 - Java
-- Tomcat (https://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.35/bin/apache-tomcat-9.0.35-windows-x64.zip)
+- Tomcat (https://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.35/bin/apache-tomcat-9.0.35-windows-x64.zip) - recomended
 - Git
 - Postman or SOAPUI or curl
 
