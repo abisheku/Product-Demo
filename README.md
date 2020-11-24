@@ -17,11 +17,11 @@
 ## Step By Step Build Instructions
 - Install java
 - Install Git
-- Clone this (https://github.com/abisheku/Product-Demo.git) git repo
+- Clone the git repo
 ```shell
 git clone https://github.com/abisheku/Product-Demo.git
 ```
-- Execute the gradle Command in the cloned repo
+- Execute the gradle Command in the repo that is cloned
 ```shell
 gradlew.bat clean build
 ```
